@@ -1,5 +1,5 @@
 {
-  "name": "aframe",
+  "name": "zaframe",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -7,6 +7,8 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "aframe": "^0.9.2",
+    "aframe-htmlembed-component": "^1.0.0",
     "core-js": "^2.6.5",
     "vue": "^2.6.10",
     "vue-router": "^3.0.3",
