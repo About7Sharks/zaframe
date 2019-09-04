@@ -1,18 +1,20 @@
 <template>
 <div id="websitePortal">
-  <a-scene fog="type: linear; color: #222222; far: 20;">
+  <a-scene >
+     <a-assets>
+      <img id="background" width="1000px" height="1000px" src=../assets/backgroundsky.jpg>
+      <img id="texture" width="480px" height="480px" src="../assets/yazBeer.jpg" alt="image">
+    </a-assets>
     <!-- <a-scene stats></a-scene> -->
 
-    <a-sky color="#222222"></a-sky>
+      <a-sky  src="#background"></a-sky>
     <img id="floor" src="../assets/tiles.svg">
-    <a-plane material="src:#floor; repeat: 700 700; transparent: true;" height="500" width="500" rotation="-90 0 0">
-    </a-plane>
+    <!-- <a-plane material="src:#floor; repeat: 700 700; transparent: true;" height="500" width="500" rotation="-90 0 0">
+    </a-plane> -->
 
     <a-entity id="mouseCursor" cursor="rayOrigin: mouse" raycaster="objects: .screen"></a-entity>
     <a-entity laser-controls raycaster="objects: .screen;"></a-entity>
-    <a-assets>
-      <img id="texture" width="480px" height="480px" src="../assets/yazBeer.jpg" alt="image">
-    </a-assets>
+   
     <a-entity id="#slide3" position="0 2.5 -2" htmlembed>
       <h1>Hi, i'm Zac </h1>
       <p>Explore around and have a beer! :)</p>
