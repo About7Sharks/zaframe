@@ -1,11 +1,12 @@
 <template>
     <a-scene>
         <a-assets>
-            <img id="floor" src="https://res.cloudinary.com/dybluctxg/image/upload/v1495307503/field_kcw4so.jpg">
+            <!-- <img id="floor" src="https://res.cloudinary.com/dybluctxg/image/upload/v1495307503/field_kcw4so.jpg"> -->
             <img id="github" src="https://res.cloudinary.com/dybluctxg/image/upload/v1495310880/github_ipn5do.png" alt="">
             <img id="me" src="../assets/miamiHomeGirl.jpg">
             <img id="accubrew" src="../assets/AccubrewIMG.png">
             <img id="about7sharks" src="../assets/about7sharks.png">
+           
         </a-assets>
         <a-sky src='#floor'></a-sky>
         <a-plane  color="#80c1ff" height="3.4" width="3">
@@ -13,7 +14,6 @@
                 <a-circle @mousedown="goGit()" src='#github' position="-1 -1.35 0.01" radius=".25"></a-circle>
                 <a-circle @mousedown="goAccubrew()" src='#accubrew' position="0 -1.35 0.01" radius=".25"></a-circle>
                 <a-circle @mousedown="goAbout7Sharks()" src='#about7sharks' position="1 -1.35 0.01" radius=".25"></a-circle>
-
 
         <a-text font="aileronsemibold" color=black width=5 align='center' value="ZACHARY CARLIN"
         position="0 1.4 0"></a-text>

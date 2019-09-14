@@ -6,6 +6,9 @@ require('aframe');
 require('aframe-htmlembed-component');
 require('aframe-event-set-component');
 require('aframe-particle-system-component')
+require('aframe-physics-system');
+require('aframe-environment-component')
+require('aframe-text-geometry-component')
 Vue.config.productionTip = false
 
 new Vue({
