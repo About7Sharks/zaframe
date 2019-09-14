@@ -40,8 +40,9 @@
             <a-box color=#004280 position='.95 0 .01' rotation='0 0 90' width=3.3 height=.1 depth=.001></a-box>
             <a-box color=#004280 position='0 1.7 .01' width=2 height=.1 depth=.001></a-box>
             
-            <a-box color=#004280 position='-.05 -.27 .01' width=2 height=.071 depth=.001></a-box>
-            <a-text  color=black width=3 align='center' value="Skills" position="0 1.5 0">
+            <a-box color=#004280 position='-.05 .45 .01' width=2 height=.071 depth=.001></a-box>
+             <a-text  color=black width=1.8  align='center' value="Most of my day to day work and personal coding time is spent within the javascript ecosystem. I have multiple years of experiencs using Vue.js and have dabbled in React.js on the front-end side of things. Even though I took python in college I really started to enjoy back-end development when I found Node.js which allows me to write javascript on the server side as well. Since then i've started to become more instrested in mixing VR/AR with javascript" position="-.04 1.15 0"></a-text>
+            <a-text  color=black width=3 align='center' value="Skills" position="0 .3 0">
             <a-text  color=black width=1.8 align='center' value="Javascript" position="-.3 -.2 0"></a-text>  <a-text  color=black width=1.8 align='center' value="HTML" position=".3 -.2 0"></a-text>
             <a-text  color=black width=1.8 align='center' value="CSS" position="-.3 -.4 0"></a-text>  <a-text  color=black width=1.8 align='center' value="SCSS" position=".3 -.4 0"></a-text>
             <a-text  color=black width=1.8 align='center' value="Git" position="-.3 -.6 0"></a-text>  <a-text  color=black width=1.8 align='center' value="Vue.JS" position=".3 -.6 0"></a-text>
@@ -50,7 +51,7 @@
              <a-text  color=black width=1.8 align='center' value="Google Cloud" position="-.3 -1.2 0"></a-text>
                  <a-text  color=black width=1.8 align='center' value="Firebase" position=".3 -1.2 0"></a-text>  <a-text  color=black width=1.8 align='center' value="Machine Learning" position=".3 -1.4 0"></a-text>
             
-             <a-text  color=black width=1.8  align='center' value="If i'm not coding you can usaully find me at the gym or on a beach somewhere." position="0 -2.25 0"></a-text>
+            
 
 
             </a-text>
