@@ -9,6 +9,7 @@ require('aframe-particle-system-component')
 require('aframe-physics-system');
 require('aframe-environment-component')
 require('aframe-text-geometry-component')
+require('aframe-html-shader')
 Vue.config.productionTip = false
 
 new Vue({

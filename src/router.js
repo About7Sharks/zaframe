@@ -3,7 +3,6 @@ import Router from 'vue-router'
 import Home from './views/Home.vue'
 import page from './views/Page.vue'
 import Tour from './views/360Tour.vue'
-
 Vue.use(Router)
 
 export default new Router({

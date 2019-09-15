@@ -112,7 +112,7 @@ export default {
               let picsArray= ['#pic1','#pic2','http://4.bp.blogspot.com/-kzBX2GaSXl8/UPM_RFEM2vI/AAAAAAAAAH8/e-2WeqdQCMA/s1600/Arnold-Schwarzenegger-Wallpaper.1.jpg','#pic4','#pic5']
               let urlArray=['https://about7sharks.com','https://accubrew.io','https://tensorposebot.netlify.com','https://pixt.netlify.com','https://zacarlin.com','https://carlinfitness.netlify.com']
               let titleArray=['About7Sharks','Accubrew','Pose Coach','Pixt','Zacarlin','Carlin Athlitcs']
-              let captionArray=['Personal website made with Nuxt.js to host my projects','Beer fermentation monitoring system I was contracted to build for Gulf Fiberoptics. Made with Vue.js front-end and Node.js back-end','PoseNet AI implemented in the browser and modified as a posing coach for bodybuilders to get feed back on their poses. Made with Vue.js','Text recognition in the browser','zacarlin','Carlin Athletics suit of tools for strength athletes']
+              let captionArray=['Personal website made with Nuxt.js to host my projects','Beer fermentation monitoring system I was contracted to build for Gulf Fiberoptics. Made with Vue.js front-end and Node.js back-end','PoseNet AI implemented in the browser and modified as a posing coach for bodybuilders to get feed back on their poses. Made with Vue.js','Analyaze text from pictures with your browser made with Vue.js and Tesseract.js (A pure Javascript port of the popular Tesseract OCR engine).','zacarlin','Carlin Athletics suite of tools for strength athletes']
               let entityEl = document.getElementById('websiteGal')
               let entityCaption=document.getElementById('websiteGalText')
               let enityTitle=document.getElementById('websiteGalTitle')
