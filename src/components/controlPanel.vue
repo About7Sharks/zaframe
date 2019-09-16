@@ -50,7 +50,7 @@
             <a-text  color=black width=1.8 align='center' value="NoSQL" position="-.3 -1 0"></a-text>  <a-text  color=black width=1.8 align='center' value="WebXR" position=".3 -1 0"></a-text>
              <a-text  color=black width=1.8 align='center' value="Google Cloud" position="-.3 -1.2 0"></a-text>
                  <a-text  color=black width=1.8 align='center' value="Firebase" position=".3 -1.2 0"></a-text>  <a-text  color=black width=1.8 align='center' value="Machine Learning" position=".3 -1.4 0"></a-text>
-            
+             <a-text  color=black width=1.8 align='center' value="Docker" position="-.3 -1.4 0"></a-text>
             
 
 
