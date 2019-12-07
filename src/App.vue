@@ -19,6 +19,10 @@
   text-align: center;
   color: #2c3e50;
 }
+.a-enter-vr{
+  z-index: 10000;
+  bottom:-5px !important;
+}
 canvas{z-index: 100;}
 #nav {
   z-index: 10000 !important;
