@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "node": "10.15.3"
+    "node": "10.15.3",
+    "npm": "6.4.1"
   },
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -29,17 +30,5 @@
     "node-sass": "^4.9.0",
     "sass-loader": "^7.1.0",
     "vue-template-compiler": "^2.6.10"
-  },
-  "description": "## Project setup ``` yarn install ```",
-  "main": "babel.config.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/About7Sharks/zaframe.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/About7Sharks/zaframe/issues"
-  },
-  "homepage": "https://github.com/About7Sharks/zaframe#readme"
+  }
 }
